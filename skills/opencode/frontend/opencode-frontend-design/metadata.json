@@ -1,0 +1,10 @@
+{
+  "name": "opencode-frontend-design",
+  "version": "1.0.0",
+  "description": "Frontend design guidelines optimized for OpenCode CLI",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["opencode", "opencode-go", "frontend", "design", "react"],
+  "agents": ["opencode"],
+  "category": "frontend"
+}

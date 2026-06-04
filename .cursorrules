@@ -1,0 +1,39 @@
+# Cursor Rules for Agent Skills
+
+This repository contains reusable skills for AI coding agents. When working with skills in this repo:
+
+1. Each skill is a self-contained folder with `SKILL.md`
+2. Follow the existing structure: `skills/<agent>/<category>/<skill-name>/`
+3. Use YAML frontmatter in `SKILL.md` for metadata
+4. Include trigger conditions so agents know when to load the skill
+5. Write steps as numbered procedures, not essays
+6. Document pitfalls and edge cases
+
+## Skill Template
+
+```markdown
+---
+name: skill-name
+description: What this skill does and when to use it
+triggers:
+  - keyword1
+  - keyword2
+---
+
+# Skill Title
+
+## When to Use
+
+## Steps
+
+1. Step one
+2. Step two
+
+## Pitfalls
+
+- Don't do X
+- Watch out for Y
+
+## Examples
+
+```

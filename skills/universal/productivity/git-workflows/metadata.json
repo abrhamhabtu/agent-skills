@@ -1,0 +1,10 @@
+{
+  "name": "universal-git-workflows",
+  "version": "1.0.0",
+  "description": "Git workflow best practices for any AI agent",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["git", "github", "workflow", "productivity", "repository"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "productivity"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cursor-frontend-design",
+  "version": "1.0.0",
+  "description": "Frontend design guidelines optimized for Cursor IDE",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["cursor", "frontend", "design", "react", "typescript"],
+  "agents": ["cursor"],
+  "category": "frontend"
+}

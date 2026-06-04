@@ -1,0 +1,66 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Universal",
+      "description": "Agent-agnostic skills that work with any AI coding assistant.",
+      "skills": [
+        "universal-frontend-design",
+        "universal-backend-patterns",
+        "universal-devops-workflows",
+        "universal-ai-agent-orchestration",
+        "universal-productivity-automation",
+        "universal-security-hardening"
+      ]
+    },
+    {
+      "title": "Claude Code",
+      "description": "Skills optimized for Claude Code by Anthropic.",
+      "skills": [
+        "claude-frontend-design",
+        "claude-backend-patterns",
+        "claude-devops-workflows",
+        "claude-ai-agent-orchestration",
+        "claude-productivity-automation",
+        "claude-security-hardening"
+      ]
+    },
+    {
+      "title": "Cursor",
+      "description": "Skills optimized for Cursor IDE.",
+      "skills": [
+        "cursor-frontend-design",
+        "cursor-backend-patterns",
+        "cursor-devops-workflows",
+        "cursor-ai-agent-orchestration",
+        "cursor-productivity-automation",
+        "cursor-security-hardening"
+      ]
+    },
+    {
+      "title": "Hermes",
+      "description": "Skills optimized for Hermes Agent by Nous Research.",
+      "skills": [
+        "hermes-frontend-design",
+        "hermes-backend-patterns",
+        "hermes-devops-workflows",
+        "hermes-ai-agent-orchestration",
+        "hermes-productivity-automation",
+        "hermes-security-hardening"
+      ]
+    },
+    {
+      "title": "OpenCode",
+      "description": "Skills optimized for OpenCode CLI.",
+      "skills": [
+        "opencode-frontend-design",
+        "opencode-backend-patterns",
+        "opencode-devops-workflows",
+        "opencode-ai-agent-orchestration",
+        "opencode-productivity-automation",
+        "opencode-security-hardening"
+      ]
+    }
+  ]
+}

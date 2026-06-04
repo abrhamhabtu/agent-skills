@@ -1,0 +1,10 @@
+{
+  "name": "universal-frontend-design",
+  "version": "1.0.0",
+  "description": "Production-grade frontend design guidelines for any AI agent",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["frontend", "design", "react", "nextjs", "tailwind", "ui", "ux"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "frontend"
+}

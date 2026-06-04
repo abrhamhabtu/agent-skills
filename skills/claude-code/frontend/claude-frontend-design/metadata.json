@@ -1,0 +1,10 @@
+{
+  "name": "claude-frontend-design",
+  "version": "1.0.0",
+  "description": "Frontend design guidelines optimized for Claude Code",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["claude", "claude-code", "frontend", "design", "react", "typescript"],
+  "agents": ["claude-code"],
+  "category": "frontend"
+}

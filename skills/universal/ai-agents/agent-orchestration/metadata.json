@@ -1,0 +1,10 @@
+{
+  "name": "universal-agent-orchestration",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration patterns for any AI agent",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["multi-agent", "orchestration", "workflow", "delegate", "parallel"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "ai-agents"
+}

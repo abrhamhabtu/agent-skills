@@ -1,0 +1,10 @@
+{
+  "name": "universal-docker-workflows",
+  "version": "1.0.0",
+  "description": "Docker and containerization best practices for any AI agent",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["docker", "container", "devops", "deployment", "compose"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "devops"
+}

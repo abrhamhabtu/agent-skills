@@ -1,0 +1,10 @@
+{
+  "name": "hermes-frontend-design",
+  "version": "1.0.0",
+  "description": "Frontend design guidelines optimized for Hermes Agent with Atheros-style UI",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["hermes", "frontend", "design", "react", "tailwind", "atheros"],
+  "agents": ["hermes"],
+  "category": "frontend"
+}

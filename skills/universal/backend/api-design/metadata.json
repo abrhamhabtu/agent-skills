@@ -1,0 +1,10 @@
+{
+  "name": "universal-api-design",
+  "version": "1.0.0",
+  "description": "REST and GraphQL API design guidelines for any AI agent",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["api", "rest", "graphql", "backend", "design"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "backend"
+}
