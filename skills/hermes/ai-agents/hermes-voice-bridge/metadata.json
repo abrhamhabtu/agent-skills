@@ -1,0 +1,10 @@
+{
+  "name": "hermes-voice-bridge",
+  "version": "1.0.0",
+  "description": "Bridge ElevenLabs voice agents to Hermes Agent for tool execution and custom logic",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["hermes", "voice", "elevenlabs", "bridge", "telephony"],
+  "agents": ["hermes"],
+  "category": "ai-agents"
+}

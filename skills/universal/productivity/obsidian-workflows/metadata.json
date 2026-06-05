@@ -1,0 +1,10 @@
+{
+  "name": "universal-obsidian-workflows",
+  "version": "1.0.0",
+  "description": "Organize knowledge, research, and project notes in Obsidian with structured vaults, templates, and linked thinking",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["obsidian", "knowledge-management", "second-brain", "research", "notes", "zettelkasten"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "productivity"
+}

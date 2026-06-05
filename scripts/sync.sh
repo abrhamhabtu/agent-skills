@@ -1,50 +1,68 @@
 #!/bin/bash
 # Agent Skills Sync Script
-# Usage: ./scripts/sync.sh [install|update|list|push]
+# Usage: ./sync.sh [auto|push|pull|status]
 
 set -e
 
-REPO_URL="https://github.com/openclaw/agent-skills"
-LOCAL_SKILLS_DIR="$HOME/.local/skills"
-GLOBAL_SKILLS_DIR="$HOME/.hermes/skills"
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+COMMAND="${1:-status}"
 
-command="${1:-install}"
+cd "$REPO_DIR"
 
-case "$command" in
-  install)
-    echo "Installing skills from $REPO_URL..."
-    npx skills add "$REPO_URL" --all -g
-    echo "Skills installed globally."
-    ;;
-  update)
-    echo "Updating skills from $REPO_URL..."
-    npx skills add "$REPO_URL" --all -g -y
-    echo "Skills updated."
-    ;;
-  list)
-    echo "Listing installed skills..."
-    npx skills add "$REPO_URL" --list
-    ;;
-  push)
-    echo "Pushing local skills back to repo..."
-    if [ -d ".git" ]; then
-      git add -A
-      git commit -m "Update skills $(date +%Y-%m-%d)"
-      git push
-      echo "Skills pushed to $REPO_URL"
+case "$COMMAND" in
+  auto)
+    # Auto-sync: pull if clean, else notify
+    if git diff --quiet && git diff --cached --quiet; then
+      echo "Pulling latest skills..."
+      git pull origin main || echo "Could not pull (maybe offline)"
+      echo "Reinstalling..."
+      "$REPO_DIR/scripts/install.sh" all
     else
-      echo "Error: Not a git repository. Run from repo root."
-      exit 1
+      echo "Local changes detected. Run './sync.sh push' to sync up."
     fi
     ;;
-  *)
-    echo "Usage: $0 [install|update|list|push]"
+    
+  push)
+    echo "Pushing local skills to remote..."
+    if [ -n "$(git status --porcelain)" ]; then
+      git add -A
+      read -p "Commit message: " msg
+      git commit -m "${msg:-Update skills $(date +%Y-%m-%d)}"
+    fi
+    git push origin main || echo "Push failed. Check your internet connection."
+    echo "Skills pushed!"
+    ;;
+    
+  pull)
+    echo "Pulling latest skills from remote..."
+    git pull origin main
+    echo "Reinstalling..."
+    "$REPO_DIR/scripts/install.sh" all
+    echo "Skills updated!"
+    ;;
+    
+  status)
+    echo "=== Agent Skills Sync Status ==="
     echo ""
-    echo "Commands:"
-    echo "  install  Install all skills globally"
-    echo "  update   Update installed skills"
-    echo "  list     List available skills"
-    echo "  push     Commit and push local changes"
+    echo "Repository: $REPO_DIR"
+    echo "Remote: $(git remote get-url origin 2>/dev/null || echo 'Not configured')"
+    echo ""
+    echo "Git status:"
+    git status --short
+    echo ""
+    echo "Installed skills:"
+    echo "  Hermes:   $(ls ~/.hermes/skills/ 2>/dev/null | wc -l | tr -d ' ') skills"
+    echo "  OpenCode: $(ls ~/.opencode/skills/ 2>/dev/null | wc -l | tr -d ' ') skills"
+    echo ""
+    echo "Usage:"
+    echo "  ./sync.sh auto   - Auto pull if clean"
+    echo "  ./sync.sh push   - Commit and push"
+    echo "  ./sync.sh pull   - Pull and reinstall"
+    echo "  ./sync.sh status - Show this status"
+    ;;
+    
+  *)
+    echo "Usage: $0 [auto|push|pull|status]"
     exit 1
     ;;
 esac

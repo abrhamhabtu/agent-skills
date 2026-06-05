@@ -1,0 +1,10 @@
+{
+  "name": "universal-cloudflare-workers",
+  "version": "1.0.0",
+  "description": "Deploy serverless functions on Cloudflare Workers with Durable Objects, KV, D1, and Queues",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["cloudflare", "workers", "edge", "serverless", "durable-objects", "kv", "d1"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "devops"
+}

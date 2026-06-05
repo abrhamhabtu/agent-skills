@@ -1,0 +1,10 @@
+{
+  "name": "universal-supabase-patterns",
+  "version": "1.0.0",
+  "description": "Production patterns for Supabase (Postgres, auth, realtime, edge functions)",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["supabase", "postgres", "auth", "realtime", "edge-functions", "rls"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "backend"
+}

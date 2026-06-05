@@ -1,0 +1,10 @@
+{
+  "name": "universal-voice-agent-integration",
+  "version": "1.0.0",
+  "description": "Integrate voice capabilities into AI agents using ElevenLabs, Twilio, and WebRTC",
+  "author": "openclaw",
+  "license": "MIT",
+  "tags": ["voice", "elevenlabs", "telephony", "twilio", "webrtc", "conversational-ai"],
+  "agents": ["universal", "claude-code", "cursor", "hermes", "opencode"],
+  "category": "ai-agents"
+}
