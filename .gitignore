@@ -1,24 +1,20 @@
-# Dependencies
-node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# IDE
-.idea/
+# Editor
 .vscode/
+.idea/
 *.swp
 *.swo
+*~
+
+# Dependencies
+node_modules/
 
 # Local overrides (machine-specific)
 local/
-*.local.md
+*.local
 
-# Build artifacts
-dist/
-build/
-*.zip
+# Logs
+*.log
