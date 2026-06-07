@@ -1,0 +1,11 @@
+{
+  "name": "last30days",
+  "version": "3.3.2",
+  "description": "Research what people actually say about any topic in the last 30 days across Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web.",
+  "author": "mvanhorn",
+  "license": "MIT",
+  "tags": ["research", "deep-research", "reddit", "x", "youtube", "tiktok", "hackernews", "polymarket", "github", "web-search", "trends", "social-media"],
+  "agents": ["universal", "claude-code", "cursor", "codex", "opencode", "hermes"],
+  "category": "research",
+  "repository": "https://github.com/mvanhorn/last30days-skill"
+}

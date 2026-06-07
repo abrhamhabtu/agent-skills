@@ -61,6 +61,13 @@
         "opencode-productivity-automation",
         "opencode-security-hardening"
       ]
+    },
+    {
+      "title": "Research",
+      "description": "Multi-source research and recent-signal workflows.",
+      "skills": [
+        "last30days"
+      ]
     }
   ]
 }
