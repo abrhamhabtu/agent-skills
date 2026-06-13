@@ -1,0 +1,9 @@
+{
+  "name": "incremental-implementation",
+  "version": "1.0.0",
+  "description": "Production-grade engineering skill from addyosmani/agent-skills",
+  "author": "addyosmani",
+  "source": "https://github.com/addyosmani/agent-skills",
+  "tags": ["security"],
+  "agents": ["universal"]
+}
