@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-to-prd",
+  "version": "1.0.0",
+  "description": "Convert conversation context into a Product Requirements Document",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-grill-with-docs",
+  "version": "1.0.0",
+  "description": "Grilling session that builds shared language (CONTEXT.md) and documents decisions in ADRs",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

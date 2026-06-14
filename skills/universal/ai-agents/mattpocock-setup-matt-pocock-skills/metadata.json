@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-setup-matt-pocock-skills",
+  "version": "1.0.0",
+  "description": "One-time project setup: configure issue tracker, triage labels, shared language doc layout",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

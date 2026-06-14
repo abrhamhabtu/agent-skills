@@ -63,6 +63,31 @@
       ]
     },
     {
+      "title": "Matt Pocock Agent Engineering",
+      "description": "Composable agent engineering skills from Matt Pocock: grill-me for alignment, tdd for verification, diagnose for debugging, architecture for clean code.",
+      "skills": [
+        "mattpocock-diagnose",
+        "mattpocock-grill-with-docs",
+        "mattpocock-improve-codebase-architecture",
+        "mattpocock-prototype",
+        "mattpocock-setup-matt-pocock-skills",
+        "mattpocock-tdd",
+        "mattpocock-to-issues",
+        "mattpocock-to-prd",
+        "mattpocock-triage",
+        "mattpocock-zoom-out",
+        "mattpocock-caveman",
+        "mattpocock-grill-me",
+        "mattpocock-handoff",
+        "mattpocock-teach",
+        "mattpocock-write-a-skill",
+        "mattpocock-git-guardrails-claude-code",
+        "mattpocock-migrate-to-shoehorn",
+        "mattpocock-scaffold-exercises",
+        "mattpocock-setup-pre-commit"
+      ]
+    },
+    {
       "title": "Research",
       "description": "Multi-source research and recent-signal workflows.",
       "skills": [

@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-caveman",
+  "version": "1.0.0",
+  "description": "Ultra-compressed communication mode for approximately 75 percent token savings with agents",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

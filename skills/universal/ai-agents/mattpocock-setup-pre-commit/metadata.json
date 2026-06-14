@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-setup-pre-commit",
+  "version": "1.0.0",
+  "description": "Configure pre-commit hooks for code quality and consistency",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

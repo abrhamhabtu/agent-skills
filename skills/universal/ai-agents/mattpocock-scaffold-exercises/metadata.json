@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-scaffold-exercises",
+  "version": "1.0.0",
+  "description": "Scaffold coding exercises with structured test harnesses and evaluation",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

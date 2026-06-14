@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-handoff",
+  "version": "1.0.0",
+  "description": "Create structured handoff documents for context transfer between sessions or agents",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-triage",
+  "version": "1.0.0",
+  "description": "Triage issues through a state machine of triage roles for systematic assessment",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-tdd",
+  "version": "1.0.0",
+  "description": "Test-driven development with red-green-refactor loop for features and bug fixes",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

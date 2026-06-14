@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-grill-me",
+  "version": "1.0.0",
+  "description": "Interview user relentlessly about a plan until reaching shared understanding",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

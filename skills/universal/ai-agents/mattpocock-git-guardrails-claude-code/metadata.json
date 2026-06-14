@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-git-guardrails-claude-code",
+  "version": "1.0.0",
+  "description": "Git safety guardrails for Claude Code: prevent bad commits, enforce conventions",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-migrate-to-shoehorn",
+  "version": "1.0.0",
+  "description": "Migration workflow for moving projects to the Shoehorn architecture pattern",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

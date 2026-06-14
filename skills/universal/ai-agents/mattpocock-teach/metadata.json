@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-teach",
+  "version": "1.0.0",
+  "description": "Interactive teaching and explaining skill with glossary, learning records, and missions",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

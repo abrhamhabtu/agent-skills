@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-to-issues",
+  "version": "1.0.0",
+  "description": "Break plans/specs into independently-grabbable GitHub issues",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

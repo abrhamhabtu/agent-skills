@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-write-a-skill",
+  "version": "1.0.0",
+  "description": "Guided skill authoring workflow for creating reusable agent skills",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-zoom-out",
+  "version": "1.0.0",
+  "description": "Get broader context on unfamiliar code sections, understand architecture at a glance",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}

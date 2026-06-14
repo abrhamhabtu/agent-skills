@@ -1,0 +1,9 @@
+{
+  "name": "mattpocock-diagnose",
+  "version": "1.0.0",
+  "description": "Systematic debugging loop: reproduce, minimise, hypothesise, instrument, fix, regression-test",
+  "author": "mattpocock",
+  "source": "https://github.com/mattpocock/skills",
+  "tags": ["mattpocock", "agent-engineering"],
+  "agents": ["universal"]
+}
