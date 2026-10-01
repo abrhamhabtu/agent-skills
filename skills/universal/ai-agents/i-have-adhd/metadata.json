@@ -1,0 +1,12 @@
+{
+  "name": "i-have-adhd",
+  "version": "1.0.0",
+  "description": "Stop the agent burying the answer - ADHD-friendly direct responses",
+  "author": "ayghri",
+  "license": "MIT",
+  "tags": "focus,brevity",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

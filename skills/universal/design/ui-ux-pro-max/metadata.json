@@ -1,0 +1,12 @@
+{
+  "name": "ui-ux-pro-max",
+  "version": "1.0.0",
+  "description": "Premium UI/UX design intelligence skill for building professional interfaces",
+  "author": "nextlevelbuilder",
+  "license": "MIT",
+  "tags": "design,ui",
+  "agents": [
+    "universal"
+  ],
+  "category": "design"
+}

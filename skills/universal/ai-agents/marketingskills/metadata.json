@@ -1,0 +1,12 @@
+{
+  "name": "marketingskills",
+  "version": "1.0.0",
+  "description": "Marketing skills pack (CRO, copywriting, SEO/AEO, ads, cold email, analytics)",
+  "author": "coreyhaines31",
+  "license": "MIT",
+  "tags": "marketing,cro,seo",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "archify",
+  "version": "1.0.0",
+  "description": "Beautiful verifiable architecture/workflow/sequence diagrams as artifacts",
+  "author": "tt-a1i",
+  "license": "MIT",
+  "tags": "diagram,architecture",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

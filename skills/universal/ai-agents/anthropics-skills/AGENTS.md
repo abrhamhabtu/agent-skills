@@ -1,0 +1,2 @@
+# Anthropics Skills
+Official Anthropic Agent Skills catalog. Sub-skills under skills/: pick the one matching the task (canvas-design, frontend-design, webapp-testing, skill-creator, docx/pptx/xlsx, pdf...). SKILL-creator template under template/.

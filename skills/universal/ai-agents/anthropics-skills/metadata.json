@@ -1,0 +1,12 @@
+{
+  "name": "anthropics-skills",
+  "version": "1.0.0",
+  "description": "Anthropic official Agent Skills catalog (19 sub-skills + skill-creator template)",
+  "author": "anthropics",
+  "license": "MIT",
+  "tags": "catalog",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

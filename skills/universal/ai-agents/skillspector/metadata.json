@@ -1,0 +1,12 @@
+{
+  "name": "skillspector",
+  "version": "1.0.0",
+  "description": "Security scanner for AI-agent skills (NVIDIA). Scan before install.",
+  "author": "NVIDIA",
+  "license": "MIT",
+  "tags": "security,scan,supply-chain",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

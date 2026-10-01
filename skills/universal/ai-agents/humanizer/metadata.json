@@ -1,0 +1,12 @@
+{
+  "name": "humanizer",
+  "version": "1.0.0",
+  "description": "Remove signs of AI-generated writing from text; keep style/human voice",
+  "author": "blader",
+  "license": "MIT",
+  "tags": "writing,humanize",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

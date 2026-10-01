@@ -1,0 +1,12 @@
+{
+  "name": "planning-with-files",
+  "version": "1.0.0",
+  "description": "Persistent file-based planning for long-running agent tasks",
+  "author": "OthmanAdi",
+  "license": "MIT",
+  "tags": "planning,files",
+  "agents": [
+    "universal"
+  ],
+  "category": "productivity"
+}

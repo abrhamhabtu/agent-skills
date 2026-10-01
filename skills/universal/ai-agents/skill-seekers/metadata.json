@@ -1,0 +1,12 @@
+{
+  "name": "skill-seekers",
+  "version": "1.0.0",
+  "description": "Convert docs/GitHub/PDF into agent skills (Skill Seekers CLI)",
+  "author": "yusufkaraaslan",
+  "license": "MIT",
+  "tags": "skill,scrape,cli",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

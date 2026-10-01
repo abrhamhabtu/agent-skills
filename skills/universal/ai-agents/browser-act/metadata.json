@@ -1,0 +1,12 @@
+{
+  "name": "browser-act",
+  "version": "1.0.0",
+  "description": "Real-browser automation skill for AI agents: anti-bot walls, selectors, parallel/isolated accounts",
+  "author": "browser-act",
+  "license": "MIT",
+  "tags": "browser,automation",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}

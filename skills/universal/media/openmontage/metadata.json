@@ -1,0 +1,12 @@
+{
+  "name": "openmontage",
+  "version": "1.0.0",
+  "description": "Agentic video production system (12 products) - script to finished short film",
+  "author": "calesthio",
+  "license": "MIT",
+  "tags": "video,media,agent",
+  "agents": [
+    "universal"
+  ],
+  "category": "media"
+}

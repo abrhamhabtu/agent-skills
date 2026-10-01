@@ -1,0 +1,1 @@
+Marketing skills pack (coreyhaines31). Skills under skills/: ai-seo, copywriting, cro, cold-email, ads, analytics, competitor-profiling, churn-prevention ... Load the relevant one.

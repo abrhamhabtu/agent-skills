@@ -1,0 +1,12 @@
+{
+  "name": "graphify",
+  "version": "1.0.0",
+  "description": "Codebase knowledge-graph CLI+skill (concept graph, visual code intelligence)",
+  "author": "Graphify-Labs",
+  "license": "MIT",
+  "tags": "code,graph,cli",
+  "agents": [
+    "universal"
+  ],
+  "category": "ai-agents"
+}
