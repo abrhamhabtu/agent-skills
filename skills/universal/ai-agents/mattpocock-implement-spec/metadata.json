@@ -1,0 +1,11 @@
+{
+  "name": "mattpocock-implement-spec",
+  "version": "1.3.0",
+  "description": "Implement the result of /to-spec and /to-tickets in code on a single integration branch, using subagents.",
+  "author": "Matt Pocock",
+  "license": "MIT",
+  "tags": ["spec", "tickets", "implementation", "subagents", "mattpocock"],
+  "agents": ["universal", "claude-code", "cursor", "codex", "opencode", "hermes"],
+  "category": "ai-agents",
+  "repository": "https://github.com/mattpocock/skills"
+}

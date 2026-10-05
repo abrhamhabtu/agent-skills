@@ -1,0 +1,11 @@
+{
+  "name": "mattpocock-retro",
+  "version": "1.3.0",
+  "description": "Run a retrospective on a coding session and suggest improvements to the agent environment for future runs.",
+  "author": "Matt Pocock",
+  "license": "MIT",
+  "tags": ["retro", "retrospective", "agent-environment", "mattpocock"],
+  "agents": ["universal", "claude-code", "cursor", "codex", "opencode", "hermes"],
+  "category": "ai-agents",
+  "repository": "https://github.com/mattpocock/skills"
+}

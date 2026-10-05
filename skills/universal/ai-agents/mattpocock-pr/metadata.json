@@ -1,0 +1,11 @@
+{
+  "name": "mattpocock-pr",
+  "version": "1.3.0",
+  "description": "Write an easy-to-read PR body with hard evidence that the changes work, plus a merge-risk assessment.",
+  "author": "Matt Pocock (skill credited upstream to Dex Horthy / Humanlayer Show-Me)",
+  "license": "MIT",
+  "tags": ["pr", "pull-request", "code-review", "mattpocock", "body-writing"],
+  "agents": ["universal", "claude-code", "cursor", "codex", "opencode", "hermes"],
+  "category": "ai-agents",
+  "repository": "https://github.com/mattpocock/skills"
+}
