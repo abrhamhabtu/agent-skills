@@ -1,0 +1,23 @@
+{
+  "name": "seo-skills",
+  "version": "1.0.0",
+  "description": "SEO + AEO agent skill pack (Illyism/seo-skills): technical audits, titles, blog refreshes, SERP intent, AEO citation checks",
+  "author": "Illyism",
+  "license": "MIT",
+  "tags": [
+    "seo",
+    "aeo",
+    "marketing",
+    "content",
+    "agent-skills"
+  ],
+  "agents": [
+    "universal",
+    "claude-code",
+    "cursor",
+    "codex",
+    "hermes"
+  ],
+  "category": "seo-aeo",
+  "source": "https://github.com/Illyism/seo-skills"
+}
